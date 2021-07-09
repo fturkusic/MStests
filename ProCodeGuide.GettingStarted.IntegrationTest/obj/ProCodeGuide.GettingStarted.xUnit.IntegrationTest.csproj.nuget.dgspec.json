@@ -1,0 +1,236 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.IntegrationTest\\ProCodeGuide.GettingStarted.xUnit.IntegrationTest.csproj": {}
+  },
+  "projects": {
+    "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.IntegrationTest\\ProCodeGuide.GettingStarted.xUnit.IntegrationTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.IntegrationTest\\ProCodeGuide.GettingStarted.xUnit.IntegrationTest.csproj",
+        "projectName": "ProCodeGuide.GettingStarted.xUnit.IntegrationTest",
+        "projectPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.IntegrationTest\\ProCodeGuide.GettingStarted.xUnit.IntegrationTest.csproj",
+        "packagesPath": "C:\\Users\\faruk.turkusic\\.nuget\\packages\\",
+        "outputPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.IntegrationTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\faruk.turkusic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.xUnitTests\\ProCodeGuide.xUnitTests.csproj": {
+                "projectPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.xUnitTests\\ProCodeGuide.xUnitTests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit.csproj",
+        "projectName": "ProCodeGuide.GettingStarted.xUnit",
+        "projectPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit.csproj",
+        "packagesPath": "C:\\Users\\faruk.turkusic\\.nuget\\packages\\",
+        "outputPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\faruk.turkusic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.xUnitTests\\ProCodeGuide.xUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.xUnitTests\\ProCodeGuide.xUnitTests.csproj",
+        "projectName": "ProCodeGuide.xUnitTests",
+        "projectPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.xUnitTests\\ProCodeGuide.xUnitTests.csproj",
+        "packagesPath": "C:\\Users\\faruk.turkusic\\.nuget\\packages\\",
+        "outputPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.xUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\faruk.turkusic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit.csproj": {
+                "projectPath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

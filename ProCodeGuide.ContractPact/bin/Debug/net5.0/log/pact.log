@@ -1,0 +1,10 @@
+# Logfile created on 2021-07-09 14:10:04 +0200 by logger.rb/47272
+I, [2021-07-09T14:10:04.740172 #13932]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has status code 200'
+I, [2021-07-09T14:10:04.740172 #13932]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-09T14:10:04.740172 #13932] DEBUG -- : body :
+I, [2021-07-09T14:10:08.966476 #13932]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which has a matching body'
+I, [2021-07-09T14:10:08.968480 #13932]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-09T14:10:08.968480 #13932] DEBUG -- : body :
+I, [2021-07-09T14:10:13.071188 #13932]  INFO -- : Running example 'Verifying a pact between Service_Consumer and Service_Provider Given String test A Get request to retrieve string with GET /api/Maths returns a response which includes headers "Content-Type" which equals "application/json, charset-utf-8"'
+I, [2021-07-09T14:10:13.072201 #13932]  INFO -- : Sending GET request to path: "/api/Maths" with headers: {"HTTP_ACCEPT"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Accept", "X_PACT_PROVIDER_STATES"=>[{"name"=>"String test"}]}, see debug logs for body
+D, [2021-07-09T14:10:13.072201 #13932] DEBUG -- : body :

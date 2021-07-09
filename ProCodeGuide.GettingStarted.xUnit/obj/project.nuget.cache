@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "oOq8ALYBkQjziZVS0y7YbeYZLxbUtUdOBjcM3/CLJvvlfLJWH2FN/vr/zMHhL8JHBAcokJFyDNGLKm7zXZd5Kg==",
+  "success": true,
+  "projectFilePath": "C:\\tfs\\repos\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit\\ProCodeGuide.GettingStarted.xUnit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\faruk.turkusic\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\faruk.turkusic\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\faruk.turkusic\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512",
+    "C:\\Users\\faruk.turkusic\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\faruk.turkusic\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\faruk.turkusic\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\faruk.turkusic\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
